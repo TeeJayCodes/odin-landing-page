@@ -5,8 +5,60 @@ body {
 
 .navbar {
     display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
 }
 
 .logo {
-    margin-right: auto;
+    
+}
+
+.navLink {
+    
+}
+
+.navbarLeft {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.navbarRight {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 20%;
+}
+
+.heroSection {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+.heroSectionLeft button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.heroSectionRight {
+    background: grey;
+}
+
+.heroMainText {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.heroSecondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.headerLogoText {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar p {
+    color: white;
 }
