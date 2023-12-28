@@ -1,12 +1,13 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .navbar {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .logo {
@@ -18,47 +19,100 @@ body {
 }
 
 .navbarLeft {
-    display: flex;
     flex-basis: 50%;
 }
 
 .navbarRight {
     display: flex;
-    justify-content: space-around;
-    flex-basis: 20%;
+    justify-content: flex-end;
+    flex-basis: 30%;
+    gap: 20px;
+}
+
+.navLink {
+    
 }
 
 .heroSection {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: center;
+    height: 300px;
 }
 
-.heroSectionLeft button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-}
-
-.heroSectionRight {
-    background: grey;
+.heroSectionLeft {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    flex-wrap: wrap;
 }
 
 .heroMainText {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 0px;
+
 }
 
 .heroSecondaryText {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.heroSectionLeft button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+
+}
+
+.heroSectionRight {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
 }
 
 .headerLogoText {
-    font-size: 24px;
+    font-size: 18px;
     color: #F9FAF8;
+    padding: 75px;
+    background: grey;
+    margin-top: 48px;
+    text-align: center;
 }
 
 .navbar p {
     color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.information > p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    
+}
+
+.information .images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image1 > p:first-of-type, .image2 > p:first-of-type, .image3 > p:first-of-type, .image4 > p:first-of-type {
+    text-align: center;
+    border: 10px solid #3882F6;
+    border-radius: 10%;;
+    min-height: 180px;
+    color: white;
+}
+
+.image1, .image2, .image3, .image4 {
+    max-width: 200px;
 }
